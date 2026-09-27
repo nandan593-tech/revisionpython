@@ -1,3 +1,7 @@
 a=(1,2,3,4)
 print(a)
 print(type(a))
+n=int(a.index(3))
+print(n)
+n=("i love priyankamohan style")
+print(n.find("priyankamohan"))
