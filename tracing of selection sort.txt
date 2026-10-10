@@ -1,0 +1,17 @@
+arr=[ 1, 4, 3 , 2 , 5]
+      0  1  2   3   4 
+i=0
+j=i+1
+min_index = i
+i=0,j=1,minindex=0
+arr[j]<arr[minindex]:4<5 t
+minindex=1
+j=2,a[j]<arr[minindex]:3<4 t
+minindex=2
+j=3,arr[j]<arr[minindex}:2<3t 
+minindex=3
+j=4,1<2 t
+minindex=4
+j=5
+swap(4,1)
+

@@ -1,15 +1,22 @@
-n= int(input("Enter the number of rows: "))
+n=int(input("enter the number of rows:  "))
 for i in range(1,n+1):
-    for j in range(n,0,-1):
-        print(" ",end="")
-    for k in range(i):
-        if k==n-i:
+    for j in range(n-i,0,-1):
+        if j==1:
             print("*",end="")
         else:
             print(" ",end="")
-    for l in range(1,n+1):
+    for k in range(1,i):
         print(" ",end="")
-    for m in range(n+1,0,-1):
-        if m==n-i:
+    for l in range(0,n-1):
+        if l==i-1:
             print("*",end="")
+        else:
+            print(" ",end="")
+    print()
+for j in range(1,n+1):
+    for k in range(1,j):
+        if k==j-1:
+            print("*",end="")
+        else:
+            print(" ",end="")
     print()
