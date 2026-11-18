@@ -1,6 +1,3 @@
-#sequential control structure it executes line by line
-#selection control structure it executes only one block of code among many
-#iterative control structure it executes a block of code repeatedly
 n=int(input("enter a number"))
 if n<=5:
     print("num is less than or equal to 5")
