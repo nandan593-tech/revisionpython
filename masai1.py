@@ -3,5 +3,8 @@
 #with open("student.txt","r") as c:
     #d=c.read()
     #print(d)
-with open("student.txt", "a") as file:
-    file.write("Name:Ramcharan\n")
+#with open("student.txt", "a") as file:
+    #file.write("Name:Ramcharan\n")
+with open("student.txt","r") as c:
+    d=c.readline()
+    print(d)
